@@ -1,0 +1,180 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.h {
+    background-color: rgb(149, 152, 210);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.navigation {
+    margin: 20px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 180px;
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 20px;
+    width: 150px;
+    background-color: #38475b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.keterangan {
+    font-size: 16px;
+    margin-bottom: 30;
+}
+
+.atas {
+    background-color: rgb(149, 152, 210);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.dalam1 {
+    display: flex;
+    margin: 30px 70px;
+}
+
+.dalam2 {
+    display: flex;
+    margin: 35px 70px;
+    padding-bottom: 50px;
+}
+
+.gambar {
+    flex: 1;
+    margin: 10px;
+
+}
+
+.gambar img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.gambar2 {
+    flex: 1;
+    margin: 10px;
+}
+
+.gambar2 img {
+    width: 390px;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.form {
+    flex: 1;
+    background-color: rgb(243, 243, 243);
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 90px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    align-items: center;
+    padding-top: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 20px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.btn-grup {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    background-color: #57687e;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    margin: 0 50px;
+}
+
+button:hover {
+    background-color: #313f50;
+}
+
+#result-container {
+    visibility: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+#hasilKel {
+    visibility: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+#formula,
+#luas {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#luasResult {
+    font-weight: bold;
+    color: #000000;
+}
+
+#kelilingResult {
+    font-weight: bold;
+    color: #000000;
+}
